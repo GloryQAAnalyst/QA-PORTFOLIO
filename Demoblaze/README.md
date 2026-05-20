@@ -7,7 +7,7 @@ Given the user is on the homepage When the user clicks the “Sign Up” button 
 # Successful Account Creation
 Given the sign-up modal is displayed When the user enters a valid username and password and clicks “Sign Up” Then the 
 account should be created successfully And a success message should be displayed
-# Exisring Username
+# Existing Username
 Given the sign-up modal is displayed When the user enters an already existing username 
 Then an error message should be displayed
 # Empty Fields
